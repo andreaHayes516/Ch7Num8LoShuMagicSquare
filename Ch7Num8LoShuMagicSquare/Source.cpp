@@ -50,10 +50,10 @@ int getInput()
     do {
         cout << "Enter number: ";
         cin >> number;
-        if (number < 0 || number>10) {
+        if (number < 1 || number>9) {
             cout << "Enter a number between 1-9" << endl;
         }
-    } while (number < 0 || number>9);
+    } while (number < 1 || number>9);
     return number;
 }
 
